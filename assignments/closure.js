@@ -1,6 +1,17 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+const gamer = () => {
+  let strength = 100;
+  const readyPlayerOne = () => {
+    strenght = 120;
+    let power = 88;
+    console.log(power);
+  }
+  // console.log(power); // returns an error since power is only within the readyPlayerOne block/function scope
+  readyPlayerOne(); // logs power since it is within its scope
+}
 
+// gamer();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
