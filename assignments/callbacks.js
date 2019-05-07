@@ -57,7 +57,13 @@ sumNums(2, 3, (sum) => {
 
 function multiplyNums(x, y, cb) {
   // multiplyNums multiplies two numbers and passes the result to the callback.
+  return cb(x * y);
 }
+
+// Function invocation
+multiplyNums(2, 3, (product) => {
+  console.log(product);
+})
 
 function contains(item, list, cb) {
   // contains checks if an item is present inside of the given array/list.
