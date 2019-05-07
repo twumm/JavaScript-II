@@ -37,7 +37,7 @@ getLength(items, (length) => {
 
 function last(arr, cb) {
   // last passes the last item of the array into the callback.
-  cb(arr[arr.length-1]);
+  return cb(arr[arr.length-1]);
 }
 
 // Function invocation
@@ -47,6 +47,7 @@ last(items, (lastItem) => {
 
 function sumNums(x, y, cb) {
   // sumNums adds two numbers (x, y) and passes the result to the callback.
+
 }
 
 function multiplyNums(x, y, cb) {
